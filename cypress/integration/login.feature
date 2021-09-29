@@ -6,7 +6,7 @@ Feature: Efetuar login na pagina  de compras
 
     Scenario: Logar a minha conta 
      Given acesse a pagina do site
-      When informo usuário e senha de acesso
-      And clico em login
-      Then acesso a minha pagina de usuário.
+      When informo a pesquisa de um determinado produto
+      And clico no produto desejado
+      Then devo validar os resultados 
      
