@@ -1,4 +1,4 @@
 {
     "testFiles": "**/*.feature",
-    "baseUrl":"https://www.americanas.com.br/"
+    "baseUrl":"http://automationpractice.com/index.php?controller=authentication&back=my-account"
   }
