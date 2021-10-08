@@ -1,13 +1,12 @@
 import Login from '../../support/pages/Elements'
-import CreateUser from '../../support/pages/Elements'
+import Register from '../../support/pages/Register'
 
 Given(/^acesso a pagina do siste$/, () => {
     Login.acessaPage()
 });
 
 When(/^informo meu email de usuario no campo de criação de usuario$/, () => {
-    CreateUser.cadastraUsuario(); 
-    cy.get('h1[class="page-heading"]').should('contain', 'Create an account')
+    Register.createUser();     
 });
 
 When(/^informo os dados cadastrais$/, () => {
