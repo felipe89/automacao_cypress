@@ -7,22 +7,21 @@ export const ELEMENTS = {
     //Informar dados de cadastro de usuário
     TipoSexo:"#id_gender1",
     NomeUserInformation: '#customer_firstname',
-    SobreNomeUserInformation: 'customer_lastname',
+    SobreNomeUserInformation: '#customer_lastname',
     emailUser: '#email', //campo já preenchido default
     senhaAcesso: '#passwd',
-    diaNasc:'#uniform-days',
-    mesNasc: '#uniform-months',
-    anoNasc:'#uniform-years',
-    notificacaoEmail: '#newsletter',
-    NomeUser:'firstname',
-    SobreNome:'lastname',
-    Endereco:'address1',
+    // diaNasc:'select[id=days]',
+    // mesNasc: 'select[id=months]',
+    // anoNasc:'select[id=years]',
+    // notificacaoEmail: '#newsletter',
+    Endereco:'#address1',
     Cidade:'#city',
-    Estado:'#id_state',
+    Estado:'select[id=id_state]',
     CodigoPostar:'#postcode',
-    Pais:'#id_country',
+    Pais:'select[id=id_country]',
     TelefoneUser: '#phone_mobile',
-    EnredecoFuturo:'alias',
-    btnRegister:'#submitAccount'
+    EnredecoFuturo:'#alias',
+    btnRegister:'#submitAccount',
+    validaAcesso: 'a[title="View my customer account"]',
 
 }

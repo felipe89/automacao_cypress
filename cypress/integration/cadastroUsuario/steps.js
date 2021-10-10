@@ -10,9 +10,9 @@ When(/^informo meu email de usuario no campo de criação de usuario$/, () => {
 });
 
 When(/^informo os dados cadastrais$/, () => {
-	return true;
+    Register.cadastraDadosUser()
 });
 
 Then(/^meu cadastro deve ser efetuado com sucesso.$/, () => {
-	return true;
+    Register.validaCadastroUsuarioEfetuado()
 });
